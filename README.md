@@ -1,10 +1,10 @@
-# CSharp-Education
+# My C# Education
 
 Please see the branches for true progress of my C#, .NET core, ASP.NET Core education. 
 
 ## Course Roadmap
 
-- C# Mastercourse (Tim Corey)
+- C# Mastercourse (Tim Corey) (In work)
 - Prove It: C# Basics (Tim Corey)
 - Getting Started with .NET Core (Tim Corey)
 - Git: Start to Finish (Tim Corey)
