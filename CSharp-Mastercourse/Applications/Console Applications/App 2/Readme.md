@@ -8,4 +8,4 @@
 
 ## App Example
 
-![link](https://github.com/Thesnowmanndev/CSharp-Education/blob/Type-Conversion-Homework/CSharp-Mastercourse/Applications/Console%20Applications/App%202/app-output.png?raw=true)
+![app](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%202/app-output.png?raw=true)
