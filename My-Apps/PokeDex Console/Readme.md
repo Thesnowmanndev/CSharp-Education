@@ -4,10 +4,10 @@ This is a simple console application that allows the user to see basic PokeDex s
 
 ## Application in use:
 
-!menu
+![menu](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/My-Apps/PokeDex%20Console/menuNavigation-and-bulbasaur.png?raw=true)
 
-!charmander
+![charmander](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/My-Apps/PokeDex%20Console/charmander.png?raw=true)
 
-!squirtle
+![squirtle](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/My-Apps/PokeDex%20Console/squirtle.png?raw=true)
 
-!exit
+![exit](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/My-Apps/PokeDex%20Console/exit.png?raw=true)
