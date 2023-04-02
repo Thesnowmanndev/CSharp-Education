@@ -8,6 +8,6 @@
 - Welcomes anyone else as technician.
 
 ---
-!admin
+![admin](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%203/admin-output.png?raw=true)
 
-!technician
+![technician](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%203/technician-output.png?raw=true)
