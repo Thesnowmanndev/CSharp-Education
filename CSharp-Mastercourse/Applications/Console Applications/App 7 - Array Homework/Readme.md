@@ -11,4 +11,4 @@
 ---
 ## Application Examples:
 
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%207%20-%20Array%20Homework/array-homework.png?raw=true)
