@@ -10,8 +10,8 @@
 
 ## Application Example:
 
-!admin
+![admin](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%205%20-%20Do%20While%20Homework/admin.png?raw=true)
 
-!user
+![user](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%205%20-%20Do%20While%20Homework/user.png?raw=true)
 
-!exit
+![exit](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%205%20-%20Do%20While%20Homework/exit.png?raw=true)
