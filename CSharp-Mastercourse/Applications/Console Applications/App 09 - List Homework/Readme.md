@@ -14,4 +14,6 @@
 ---
 
 ## Application Example:
-![list](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%209%20-%20List%20Homework/list.png?raw=true)
+![list](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2009%20-%20List%20Homework/list.png?raw=true)
+
+To see the code source click [here](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2009%20-%20List%20Homework/ClassRoster/Program.cs).
