@@ -9,6 +9,6 @@
 
 ## Application Example:
 
-!dictionaryHomework
+![dictionaryHomework](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2011%20-%20Dictionary%20Homework/dictionary.png?raw=true)
 
-To see the code source click here.
+To see the code source click [here](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2011%20-%20Dictionary%20Homework/DictionaryHomework/Program.cs).
