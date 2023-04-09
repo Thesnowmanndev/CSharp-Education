@@ -11,4 +11,6 @@
 ---
 ## Application Examples:
 
-![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%207%20-%20Array%20Homework/array-homework.png?raw=true)
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2007%20-%20Array%20Homework/array-homework.png?raw=true)
+
+To see the code source click [here](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2007%20-%20Array%20Homework/ArrayHomework/Program.cs).
