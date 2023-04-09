@@ -7,3 +7,5 @@ In C#, Dictionary is a generic collection which is generally used to store key/v
 ## Application Example:
 
 ![dictionary](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2010%20-%20Dictionary/dictionary-example.png?raw=true)
+
+To see the code source click [here](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2010%20-%20Dictionary/Dictionary/Program.cs).
