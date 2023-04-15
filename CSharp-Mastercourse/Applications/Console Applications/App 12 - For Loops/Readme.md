@@ -7,6 +7,6 @@ See more: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/sta
 
 ![flow](https://media.geeksforgeeks.org/wp-content/cdn-uploads/loops.png)
 
-1. **Initialization of loop variable:** Th expression / variable controlling the loop is initialized here. It is the starting point of for loop. An already declared variable can be used or a variable can be declared, local to loop only.
+1. **Initialization of loop variable:** The expression / variable controlling the loop is initialized here. It is the starting point of for loop. An already declared variable can be used or a variable can be declared, local to loop only.
 2. **Testing Condition:** The testing condition to execute statements of loop. It is used for testing the exit condition for a loop. It must return a boolean value true or false. When the condition became false the control will be out from the loop and for loop ends.
 3. **Increment / Decrement:** The loop variable is incremented/decremented according to the requirement and the control then shifts to the testing condition again. Note: Initialization part is evaluated only once when the for loop starts.
