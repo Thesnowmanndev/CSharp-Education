@@ -6,7 +6,7 @@ Instructions: Create a console application with a for loop that throws an except
 
 To see the code source click here: Program.cs
 
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2022%20-%20Handling%20Exceptions%20Homework/example.png?raw=true)
 
 ## Code Preview:
 
