@@ -4,7 +4,7 @@ Write a program that has the following string variables: firstName, middleName, 
 
 # Application Example
 
-## Program.cs
+## [Program.cs](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2002%20-%20Name%20and%20Initials/NameAndInitials/Program.cs)
 
 ```
 using NameAndInitials;
@@ -22,7 +22,7 @@ Console.WriteLine($"\n{person.FirstName} {person.MiddleName} {person.LastName}'s
 
 ```
 
-## PersonModel.cs
+## [PersonModel.cs](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2002%20-%20Name%20and%20Initials/NameAndInitials/PersonModel.cs)
 
 ```
 namespace NameAndInitials
@@ -51,4 +51,4 @@ namespace NameAndInitials
 ```
 
 ## Application in Operation:
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2002%20-%20Name%20and%20Initials/example.png?raw=true)
