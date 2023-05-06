@@ -49,4 +49,4 @@ namespace UserData
 ```
 
 ### Application being ran:
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2001%20-%20User%20Data/example.png?raw=true)
