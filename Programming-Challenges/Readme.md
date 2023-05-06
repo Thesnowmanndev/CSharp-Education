@@ -7,3 +7,4 @@ This folder contains all programming challenges I have programmed using the C# l
 ## Program Listing:
 
 [01 - Name, Age, and Annual Income (User Data)](https://github.com/Thesnowmanndev/CSharp-Education/tree/main/Programming-Challenges/Console/App%2001%20-%20User%20Data)
+[02 - Name and Initials](https://github.com/Thesnowmanndev/CSharp-Education/tree/main/Programming-Challenges/Console/App%2002%20-%20Name%20and%20Initials)
