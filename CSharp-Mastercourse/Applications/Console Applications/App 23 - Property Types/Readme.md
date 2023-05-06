@@ -46,7 +46,7 @@ Auto properties provide a convenient way to define properties in C# classes whil
 Create a class that has properties for street address, city, state, and zip code. Then add a FullAddress property that is read-only.
 
 ## Example: 
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2023%20-%20Property%20Types/example.png?raw=true)
 
 ## Code:
-To see the code source: PersonModel.cs, Program.cs
+To see the code source: [PersonModel.cs](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2023%20-%20Property%20Types/PropertyTypes/PersonModel.cs), [Program.cs](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2023%20-%20Property%20Types/PropertyTypes/Program.cs)
