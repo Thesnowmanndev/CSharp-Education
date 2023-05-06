@@ -18,7 +18,8 @@ person.MiddleName = Console.ReadLine();
 Console.Write("Enter your last name: ");
 person.LastName = Console.ReadLine();
 
-Console.WriteLine($"\n{person.FirstName} {person.MiddleName} {person.LastName}'s initials are {person.FirstInitial}{person.MiddleInitial}{person.LastInitial}.");
+Console.WriteLine(  $"\n{person.FirstName} {person.MiddleName} {person.LastName}'s initials are 
+                        {person.FirstInitial}{person.MiddleInitial}{person.LastInitial}.");
 
 ```
 
