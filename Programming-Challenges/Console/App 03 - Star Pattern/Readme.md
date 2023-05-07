@@ -14,7 +14,7 @@ Write a program that displays the following pattern:
 
 # Application Example
 
-## Program.cs
+## [Program.cs](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2003%20-%20Star%20Pattern/StarPattern/Program.cs)
 
 ```
 int size = 4;
@@ -53,4 +53,4 @@ for (int i = size - 1; i >= 1; i--)
 ```
 
 ## Application in Operation:
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2003%20-%20Star%20Pattern/example.png?raw=true)
