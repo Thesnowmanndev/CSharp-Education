@@ -14,3 +14,7 @@ Please see the branches for true progress of my C#, .NET core, ASP.NET Core educ
 - Database DevOps: Start to Finish (Tim Corey)
 - ASP.NET Core: Start to Finish (Tim Corey)
 - Build It: ASP.NET MVC User Interface (Tim Corey)
+
+## Books
+
+- Starting out with Java by Tony Gaddis (using purely for the programming challenges at the end of every chapter)
