@@ -75,4 +75,4 @@ class Program
 
 ## Application Output
 
-!example
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2024%20-%20Class%20Library/example.png?raw=true)
