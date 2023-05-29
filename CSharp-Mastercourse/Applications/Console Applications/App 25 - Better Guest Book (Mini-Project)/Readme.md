@@ -132,4 +132,4 @@ Console.ReadLine();
 
 ## Application Output
 
-![example]()
+![example](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2025%20-%20Better%20Guest%20Book%20(Mini-Project)/example.png?raw=true)
