@@ -51,18 +51,18 @@ BattleshipGameLibrary
 
 ## Game in Action:
 
-introduction
+![introduction](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/introduction.png?raw=true)
 
-ShipPlacementPlayerOne
+![ShipPlacementPlayerOne](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/ShipPlacementPlayer1.png?raw=true)
 
-ShipPlacementPlayerTwo
+![ShipPlacementPlayerTwo](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/ShipPlacementPlayer2.png?raw=true)
 
-InvalidPlacement
+![InvalidPlacement](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/invalidPlacement.png?raw=true)
 
-Hit
+![Hit](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/Hit.png?raw=true)
 
-Miss
+![Miss](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/Miss.png?raw=true)
 
-InvalidShot
+![InvalidShot](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/InvalidShot.png?raw=true)
 
-WinScreen
+![WinScreen](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2026%20-%20Console%20Battleship%20Game/WinScreen.png?raw=true)
