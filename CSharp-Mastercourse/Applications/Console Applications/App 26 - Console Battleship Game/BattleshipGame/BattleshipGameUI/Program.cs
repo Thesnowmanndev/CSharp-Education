@@ -16,6 +16,7 @@ namespace BattleshipConsole
 
             do
             {
+                Console.Clear();
                 ConsoleUI.DisplayShotGrid(activePlayer);
 
                 ConsoleUI.RecordPlayerShot(activePlayer, opponent);

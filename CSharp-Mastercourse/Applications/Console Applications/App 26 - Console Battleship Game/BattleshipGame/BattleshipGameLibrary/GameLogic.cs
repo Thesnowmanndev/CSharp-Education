@@ -1,5 +1,6 @@
 ﻿using BattleshipGameLibrary.Helpers;
 using BattleshipGameLibrary.Models;
+using System.ComponentModel;
 
 namespace BattleshipGameLibrary
 {
@@ -42,6 +43,16 @@ namespace BattleshipGameLibrary
 
             bool isValidLocation = Validators.IsValidGridLocation(model, row, column);
             bool isLocationAvailable = Validators.isValidShipLocation(model, row, column);
+
+            if (!isValidLocation) 
+            {
+                Console.WriteLine($"{ row }{column.ToString() } is not a valid location.");
+            }
+
+            if (!isLocationAvailable)
+            {
+                Console.WriteLine($"{row} {column.ToString()} is taken.");
+            }
 
             if (isValidLocation && isLocationAvailable)
             {
@@ -86,6 +97,7 @@ namespace BattleshipGameLibrary
                 if (ship.LocationLetter == row.ToUpper() && ship.LocationNumber == column)
                 {
                     isHit = true;
+                    ship.LocationStatus = GridLocationStatus.Sunk;
                 }
             }
 
@@ -113,7 +125,7 @@ namespace BattleshipGameLibrary
         public static void IdentifyWinner(PlayerInfoModel winner)
         {
             Console.WriteLine($"Congratulations to { winner.Name }!");
-            Console.WriteLine($"{ winner.Name } took { GetShotCount(winner) } shots.");
+            Console.WriteLine($"{ winner.Name } fired { GetShotCount(winner) } shots to win the game.");
         }
     }
 }

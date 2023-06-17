@@ -49,6 +49,9 @@ namespace BattleshipConsole
         public static void DisplayShotGrid(PlayerInfoModel activePlayer)
         {
             string currentRow = activePlayer.ShotGrid[0].LocationLetter;
+            Console.WriteLine($"{ activePlayer.Name }'s Turn!");
+            Console.WriteLine("Key:    XX = Sunk    OO = Miss");
+            Console.WriteLine("\n------ BOARD ------");
 
             foreach (var gridSpot in activePlayer.ShotGrid)
             {
@@ -60,21 +63,22 @@ namespace BattleshipConsole
 
                 if (gridSpot.LocationStatus == GridLocationStatus.Empty)
                 {
-                    Console.Write($" {gridSpot.LocationLetter}{gridSpot.LocationLetter} ");
+                    Console.Write($" {gridSpot.LocationLetter}{gridSpot.LocationNumber} ");
                 }
                 else if (gridSpot.LocationStatus == GridLocationStatus.Hit)
                 {
-                    Console.Write(" XX ");
+                    Console.Write(" X  ");
                 }
                 else if (gridSpot.LocationStatus == GridLocationStatus.Miss)
                 {
-                    Console.Write(" OO ");
+                    Console.Write(" O  ");
                 }
                 else
                 {
-                    Console.Write(" ?? ");
+                    Console.Write(" ?  ");
                 }
             }
+            Console.WriteLine("\n------ BOARD ------");
         }
 
         private static void PlaceShips(PlayerInfoModel model)
@@ -83,13 +87,17 @@ namespace BattleshipConsole
             {
                 Console.Write($"Where would you like to put ship number {model.ShipLocations.Count + 1}: ");
                 string input = Console.ReadLine().Trim();
-                bool validLocation = IsValidGridLocation(model, input);
 
-                if (!validLocation)
+                bool isValidLocation = false;
+
+                try
                 {
-                    ConsoleMessages.InvalidGridLocation(input);
+                    isValidLocation = GameLogic.PlaceShip(model, input);
                 }
-
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
             } while (model.ShipLocations.Count < MAX_SHIPS);
         }
 
@@ -102,8 +110,16 @@ namespace BattleshipConsole
             do
             {
                 string shot = InquireShot();
-                (row, column) = GameLogic.SplitGridLocation(shot);
-                isValidShot = Validators.IsValidGridLocation(activePlayer, row, column);
+                try
+                {
+                    (row, column) = GameLogic.SplitGridLocation(shot);
+                    isValidShot = Validators.IsValidGridLocation(activePlayer, row, column);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                    isValidShot = false;
+                }
 
                 if (isValidShot == false)
                 {
@@ -114,11 +130,28 @@ namespace BattleshipConsole
             bool shipHit = GameLogic.IdentifyShotResult(opponent, row, column);
 
             GameLogic.AnnotateShotResult(activePlayer, row, column, shipHit);
+
+            DisplayShotResults(row, column , shipHit);
+            Console.ReadLine();
+        }
+
+        private static void DisplayShotResults(string row, int column, bool shipHit)
+        {
+            if (shipHit)
+            {
+                Console.WriteLine($"Your shot at { row }{ column.ToString() } hit!"); 
+            }
+            else
+            {
+                Console.WriteLine($"Your shot at { row }{ column.ToString() } missed.");
+            }
+
+            Console.WriteLine();
         }
 
         private static string InquireShot()
         {
-            Console.Write("Please enter the grid location you would like to fire a shot at: ");
+            Console.Write("\n\nPlease enter the grid location you would like to fire a shot at: ");
             string output = Console.ReadLine();
 
             return output;
