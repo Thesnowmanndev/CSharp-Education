@@ -1,79 +1,5 @@
 # Battleship - Console version
 
-
-
----
-
-## UML Mockup
-
-``` C#
-                                            +--------------------------------+
-                                            |         BattleshipGame         |
-                                            +--------------------------------+
-                                            | - player1: Player              |
-                                            | - player2: Player              |
-                                            | - currentPlayer: Player        |
-                                            | - gameBoard: GameBoard         |
-                                            +--------------------------------+
-                                            | + StartGame(): void            |
-                                            | + PlayTurn(): void             |
-                                            +--------------------------------+
-
-                                                    /                      \
-                                                   /                        \
-                                        +---------------------+       +------------------+
-                                        |      Player         |       |    GameBoard     |
-                                        +---------------------+       +------------------+
-                                        | - name: string      |       | - board: Cell[,] |
-                                        | - ships: Ship[]     |       +------------------+
-                                        | - score: int        |
-                                        +---------------------+
-                                        | + PlaceShips(): void|
-                                        | + FireShot(): void  |
-                                        +---------------------+
-
-                                                  ^
-                                                  |
-                                                  |
-                                        +-------------------+
-                                        |       Ship        |
-                                        +-------------------+
-                                        | - name: string    |
-                                        | - size: int       |
-                                        | - position: Cell[]|
-                                        +-------------------+
-                                        | + IsSunk(): bool  |
-                                        +-------------------+
-
-                                                  ^
-                                                  |
-                                                  |
-                                        +-------------------+
-                                        |       Cell        |
-                                        +-------------------+
-                                        | - x: int          |
-                                        | - y: int          |
-                                        | - state: State    |
-                                        | - ship: Ship      |
-                                        +-------------------+
-                                        | + SetState(): void|
-                                        +-------------------+
-
-                                                  ^
-                                                  |
-                                                  |
-                                        +---------------------+
-                                        |      State          |
-                                        +---------------------+
-                                        | - name: string      |
-                                        +---------------------+
-                                        | + Empty(): State    |
-                                        | + Occupied(): State |
-                                        | + Hit(): State      |
-                                        | + Missed(): State   |
-                                        +---------------------+
-```
-
 ---
 
 ## Folder Structure
@@ -82,49 +8,61 @@ This structure follows the best practice of separation of concerns and helps imp
 
 
 ```
-BattleshipGameUI
+BattleshipConsole
 └── Program.cs
+└── ConsoleUI.cs
+└── ConsoleMessages.cs
 
 BattleshipGameLibrary
-├── Models
-│   ├── GameBoard.cs
-│   ├── Cell.cs
-│   ├── Ship.cs
-│   └── State.cs
 ├── Helpers
-│   ├── InputHelper.cs
-│   └── DisplayHelper.cs
-└── Players
-    ├── Player.cs
-    └── ComputerPlayer.cs
+│   ├── GridHandler.cs
+│   └── Validators.cs 
+├── Models
+│   ├── Enums.cs
+│   ├── GridLocationModel.cs
+│   └── PlayerInfoModel.cs
+│  
+└── GameLogic.cs
 ```
 
-- **BattleshipGameUI** : This folder (project) is the folder for the console application
+- **BattleshipConsole** : This folder (project) is the folder for the console application
 
   - `Program.cs` : The entry point of the application. It contains the Main method to start the game.
+  - `ConsoleUI.cs` : Contains console specific functions for the game (ones that would not be transferable to a GUI product).
+  - `ConsoleMessages.cs` : Holds functions that print messages to the console.
 
 - **BattleshipGameLibrary** : This folder (project) is the folder for the library that contains most of the logic in our application.
 
   - ***Models*** : This folder contains the classes that represent the core entities of the game.
 
-    - `GameBoard.cs` : Represents the game board and its functionality.
+    - `Enums.cs` : Defines the states for a ship.
 
-    - `Cell.cs` : Represents a cell on the game board.
+    - `GridLocationModel.cs` : Establishes a model for defining a grid location.
 
-    - `Ship.cs` : Represents a ship in the game.
-
-    - `State.cs` : Represents the states a cell can have.
+    - `PlayerInfoModel.cs` : Establishes a model for defining a player.
 
   - ***Helpers*** : This folder contains helper classes that provide utility functions.
 
-    - `InputHelper.cs` : Helps with reading and validating user input.
+    - `GridHandler.cs` : Responsible for initializing the game board (A1 - E5) and adding it to the player.
 
-    - `DisplayHelper.cs` : Provides helper methods for displaying information on the console.
-
-  - ***Players*** : This folder contains classes related to the players in the game.
-
-    - `Player.cs` : Represents a human player in the game.
-
-    - `ComputerPlayer.cs` : Represents an AI player in the game.
+    - `Validators.cs ` : Contains method to validate user input.
 
 ---
+
+## Game in Action:
+
+introduction
+
+ShipPlacementPlayerOne
+
+ShipPlacementPlayerTwo
+
+InvalidPlacement
+
+Hit
+
+Miss
+
+InvalidShot
+
+WinScreen
