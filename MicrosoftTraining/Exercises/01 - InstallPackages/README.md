@@ -16,4 +16,4 @@ At this point, the developers want you to install Humanizer, write a couple of d
 
 ## Output :
 
-!outputImage
+![outputImage](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/MicrosoftTraining/Exercises/01%20-%20InstallPackages/output.png?raw=true)
