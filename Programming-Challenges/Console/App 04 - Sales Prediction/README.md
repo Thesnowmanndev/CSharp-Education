@@ -15,9 +15,9 @@ The East Coast Sales division of a company generates 62 percent of total sales. 
 
 ## Application Examples:
 
-!ScenarioCalculation
+![ScenarioCalculation](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2004%20-%20Sales%20Prediction/Calculation.png?raw=true)
 
-!ValidationAndOtherCalculation
+![ValidationAndOtherCalculation](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/Programming-Challenges/Console/App%2004%20-%20Sales%20Prediction/ErrorValidation.png?raw=true)
 
 ---
 
