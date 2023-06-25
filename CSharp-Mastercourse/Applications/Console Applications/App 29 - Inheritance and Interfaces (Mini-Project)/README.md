@@ -10,23 +10,23 @@ For this mini project I was tasked to create a console application that read lis
 
 ### Purchase
 
-!Purchase
+![Purchase](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2029%20-%20Inheritance%20and%20Interfaces%20(Mini-Project)/ItemPurchased.png?raw=true)
 
 ### Rent
 
-!Rental
+![Rental](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2029%20-%20Inheritance%20and%20Interfaces%20(Mini-Project)/ItemRented.png?raw=true)
 
 ### Return 
 
-!Returns
+![Returns](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2029%20-%20Inheritance%20and%20Interfaces%20(Mini-Project)/ItemReturned.png?raw=true)
 
 ### Error Validation
 
-!ErrorValidation
+![ErrorValidation](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2029%20-%20Inheritance%20and%20Interfaces%20(Mini-Project)/ErrorValidating.png?raw=true)
 
 ### Application Terminated
 
-!ApplicationTerminated
+![ApplicationTerminated](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2029%20-%20Inheritance%20and%20Interfaces%20(Mini-Project)/ApplicationTerminated.png?raw=true)
 
 ---
 
