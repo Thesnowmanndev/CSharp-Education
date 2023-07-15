@@ -4,7 +4,7 @@ This project was created while following along with Tim Corey's C Sharp Masterco
 
 ## Preview 
 
-!Application
+![Application](https://github.com/Thesnowmanndev/CSharp-Education/blob/main/CSharp-Mastercourse/Applications/Console%20Applications/App%2030%20-%20Mini%20Project%20Abstract%20Classes/Application.png?raw=true)
 
 ## Enums
 ```C#
